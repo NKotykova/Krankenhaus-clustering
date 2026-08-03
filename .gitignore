@@ -1,0 +1,31 @@
+# --- Daten (WICHTIG: nicht veroeffentlichen, siehe README) -----------------
+data/raw/
+data/processed/
+# Sicherheitsnetz: JEDE csv/parquet-Datei wird ignoriert, egal wo sie liegt.
+# Für eine bewusst erstellte Demo-Datei: "git add -f dateiname.csv"
+*.csv
+*.parquet
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Streamlit -----------------------------------------------------------------
+.streamlit/
+
+# --- IDE / Editor --------------------------------------------------------------
+.vscode/
+.idea/
+
+# --- Betriebssystem --------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- Sonstiges -----------------------------------------------------------------
+.env
+*.log
