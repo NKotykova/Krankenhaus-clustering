@@ -101,7 +101,7 @@ Eine Klinik mit nur 3 gemeldeten Indikatoren kann durch einen einzigen ungünsti
 
 Eine Klinik, die überwiegend Onkologie macht, übertrifft den Bundesdurchschnitt in diesem Bereich im Schnitt leichter als eine Klinik, die überwiegend Orthopädie macht — nicht weil sie besser arbeitet, sondern weil die Fachbereiche strukturell unterschiedliche Basisraten haben. Ohne Korrektur würde die Analyse teilweise nur "welche Spezialisierung hat diese Klinik zufällig" statt "wie gut ist diese Klinik" abbilden. Lösung: **Z-Normalisierung innerhalb jeder Fachgruppe** — jede Klinik wird nur mit echten Konkurrenten im selben Fachbereich verglichen, danach erst gewichtet zu einem Gesamtwert zusammengeführt.
 
-**Woran man erkennt, dass es funktioniert hat:** Nach beiden Korrekturen zeigen die Struktur-Merkmale (Personal, Ausstattung, Hygiene, Risikomanagement …) einen klaren, durchgängigen Unterschied zwischen den drei Gruppen — z. B. Pflegepersonal-Erfüllungsgrad 65 % / 79 % / 86 % von "Unter Ø" bis "Über Ø". Ohne die Korrekturen wirkten "beste" und "schlechteste" Klinik strukturell oft praktisch identisch — die Gruppen ließen sich kaum inhaltlich erklären. Details und Zahlen: `02_transform.py`.
+**Woran man erkennt, dass es funktioniert hat:** Nach beiden Korrekturen zeigen die Struktur-Merkmale (Personal, Ausstattung, Hygiene, Risikomanagement …) einen klaren, durchgängigen Unterschied zwischen den drei Gruppen — z. B. Pflegepersonal-Erfüllungsgrad 65 % / 79 % / 86 % von "Unter Ø" bis "Über Ø". Ohne die Korrekturen wirkten Kliniken aus unterschiedlichen Gruppen strukturell oft praktisch identisch — die Gruppen ließen sich kaum inhaltlich erklären. Details und Zahlen: 02_transform.py.
 
 ## Grenzen der Methode
 
