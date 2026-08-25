@@ -2,8 +2,6 @@
 
 Eine Analyse der Qualität deutscher Krankenhäuser, basierend auf den offiziellen G-BA/IQTIG-Qualitätsberichten 2023.
 
-> Abschlussprojekt — eine eigenständige, methodisch gründlich validierte Analyse.
-
 ---
 
 ## Worum geht es?
