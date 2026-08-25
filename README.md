@@ -1,6 +1,6 @@
 # Qualitätsbefund deutscher Krankenhäuser
 
-Eine Analyse der Qualität deutscher Krankenhäuser, basierend auf den offiziellen G-BA/IQTIG-Qualitätsberichten 2023.
+Eine Analyse der Qualität deutscher Krankenhäuser, basierend auf strukturierten Qualitätsdaten aus dem Gesundheitssektor 2023.
 
 ---
 
@@ -86,11 +86,8 @@ Dafür müssen die 86 Rohdaten-Dateien im Ordner `data/raw/` liegen.
 
 **Dieses Repository enthält keine echten Daten.**
 
-Deutsche Krankenhäuser müssen laut Gesetz (§ 136b SGB V) jährlich einen Qualitätsbericht veröffentlichen. Jeden einzelnen Bericht kann man frei einsehen: [G-BA-Referenzdatenbank](https://qb-referenzdatenbank.g-ba.de).
-
-Den **gesamten Datensatz aller Krankenhäuser zusammen** gibt es aber nicht zum freien Download – nur auf Anfrage über ein offizielles Formular mit eigenen Nutzungsbedingungen: [G-BA Qb-Datenportal](https://qb-datenportal.g-ba.de/). Die hier verwendete Version kam über eine Partnerorganisation im Rahmen einer Kursaufgabe – nicht zur Weiterverbreitung gedacht.
-
-Deshalb: nur Code, keine Daten. Wer selbst testen möchte, kann die Daten offiziell beim G-BA anfragen oder eigene Testdaten mit gleicher Spaltenstruktur nutzen.
+Die verwendeten Qualitätsdaten wurden im Rahmen einer Weiterbildung über eine Partnerorganisation bereitgestellt und unterliegen deren Nutzungsbedingungen – sie sind nicht zur Weiterverbreitung gedacht und daher nicht im Repository enthalten.
+Wer selbst testen möchte, kann eigene Testdaten mit gleicher Spaltenstruktur nutzen.
 
 ## Zwei wichtige Korrekturen in der Berechnung
 
